@@ -1,4 +1,7 @@
 
+body{
+    font-family: 'Raleway', sans-serif !important;
+}
 
 .logo{
    height: 10vh;
@@ -6,37 +9,111 @@
     border-radius: 50%;
 
 }
-/*.coverimage{
-    height: 1200px;
-}*/
 
-/* Container needed to position the button. Adjust the width as needed */
+
+.header{
+    background-image: url("media/cover2.jpg");
+
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+/* Style the text and place it in the middle of the cover/image */
 .cover {
-  position: relative;
-  width: 50%;
+  color: white;
+  font-size: 8vh;
+  font-family: 'Raleway', sans-serif;
+  align-content: center;
 }
 
-/* Make the image responsive */
-img {
-  width: 100%;
-  height: auto;
-  position: absolute;
+.dropdown-menu{
+   font-family: 'Raleway', sans-serif !important;
 }
 
-/* Style the button and place it in the middle of the container/image */
-.cover {
-  position: absolute;
-  top: 40%;
-  left: 40%;
-  color: white;
-  font-size: 70px;
-  font-family: sans-serif;
+
+i{
+    font-size: 6vh;
+    color: white;
+    margin: 5px;
 }
-/*}
-.text-title {
-  position: absolute;
-  
-  color: white;
-  padding: 40px;
+
+
+.iconwrapper{
+   width: 20px;
+    display: flex;
+    justify-content: flex-end; 
 }
-*/
+
+.noborder{
+    border:none !important;
+       height: 10vh !important;
+    width: 10vh !important;
+    border-radius: 50% !important;
+
+}
+
+.formcontainer{
+   background-color: #F2C6A0; 
+}
+form{
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 15px
+    box-shadow: none !important;
+    border:none !important;
+    }
+
+.contactform{
+    margin: auto;
+    display: flex;
+}
+
+.btn:focus{
+    box-shadow: none !important;
+}
+
+.contactform input{
+    width:100%;
+}
+
+
+.boxin{
+    width: 23%;
+    height: 295px;
+    background-color: #C0885A;
+}
+.properties{
+    background-color: #93663B;
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.card-deck{
+    background-color: black;
+    padding: 15px;
+    border:none !important;
+
+}
+
+.card{
+     border:none !important;
+}
+
+.card-body{
+    background-color: black !important;
+    border:none !important;
+    color: white;
+}
+
+

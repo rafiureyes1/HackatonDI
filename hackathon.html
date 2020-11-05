@@ -6,19 +6,18 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
 
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;1,200&display=swap" rel="stylesheet">
+
     <title>Tales From the S.D.</title>
 </head>
 <body>
-<!-- Navbar- logo button left-- social media right -->
-<!-- 	<nav> 
-		<div class="container">
-		<input type="image"  id="saveform" src="media/logo.png" alt="Submit Form" class="logo" />
-			<img src="media/logo.png" alt="Snow" class="logo">
-		</div>
-    			<h1 class="display-4">Tales From the S.D.</h1>
-  			</div>
-		</div>
-	</nav> -->
+	<!-- NAVBARRRRR -->
 <div class="fixed-top">
   <div class="collapse" id="navbarToggleExternalContent">
     <div class="bg-dark p-4">
@@ -26,37 +25,217 @@
       <span class="text-muted">Toggleable via the navbar brand.</span>
     </div>
   </div>
-  <nav class="navbar bg-dark bg-transparent">
-    <button type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" class="button btn bg-transparent">
-      <img src="media/logo.png" alt="Snow" class="logo">
-    </button>
-    <i class="fab fa-facebook"></i>
-    <i class="fab fa-instagram"></i>
+
+<nav class="navbar bg-dark bg-transparent">
+<div class="dropdown">
+  <a class="btn btn-secondary bg-transparent noborder" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <img src="media/logo.png" alt="Snow" class="logo">
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" href="#">Reservations</a>
+    <a class="dropdown-item" href="#">Blog</a>
+    <a class="dropdown-item" href="#">Indulgent Conversations</a>
+     <a class="dropdown-item" href="#">Contact Us</a>
+  </div>
+</div>
+
+<div class="iconwrapper">
+    	<a href="https://www.facebook.com/tali.tri/">
+        <i class="fab fa-facebook"></i>
+      </a>
+    	<a href="https://www.instagram.com/tales.from.the.sexdungeon/">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
   </nav>
 </div>
 
-
-
-
 <!-- Image cover background and headline ontop -->
-<div>
-	<img src="media/cover2.jpg">
-	<h1 class="text-title cover">Tales from the S.D.</h1>
+<div class= "header">
+	<!-- <img src="media/cover2.jpg"> -->
+	<h1 class="cover">Tales from the S.D.</h1>
 </div>
 
 
 <!-- Cardgroup of 3 -->
 
+<div class="card-deck">
+  <div class="card card-body">
+    <img src="media/fig.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Shouldn’t food always be a pleasure?</h5>
+      <p class="card-text">This .</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="media/mushrooms.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Allow food to transport you to new places.</h5>
+      <p class="card-text">This .</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="media/mouth.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Invitations are exclusively by word of mouth... </h5>
+      <p class="card-text">This.</p>
+    </div>
+  </div>
+</div> 
+
+<!-- Cardgroup of 4 -->
+<div class="properties">
+	<div class="boxin" onclick="location.href='calendar.html';" style=": pointer;"></div>
+
+	<div class="boxin"  onclick="location.href='YOUR-URL-HERE';" style="cursor: pointer;"></div>
+	
+	<div class="boxin" onclick="location.href='YOUR-URL-HERE';" style="cursor: pointer;"></div>
+
+	<div class="boxin" onclick="location.href='YOUR-URL-HERE';" style="cursor: pointer;"></div>
+
+</div>
 
 <!-- CONTACT AREA Input email, telephone and text area -->
-<div>
-	
+<div class="formcontainer">
+ <form action="mailto:someone@example.com" method="post">
+        <div class="contactform">
+        	<input name="email" placeholder="Email" type="email">
+        	<input name="Cellphone" placeholder="Cellphone Number" type="tel">
+        </div>
+        <textarea name="message" placeholder="Message"></textarea>
+        <button>Send</button>
+ </form>
 </div>
 
 
 
+<!-- Footer -->
+<footer class="page-footer font-small indigo">
+
+  <!-- Footer Links -->
+  <div class="container">
+
+    <!-- Grid row-->
+    <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!">About us</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!">Products</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!">Awards</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!">Help</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!">Contact</a>
+        </h6>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+    <hr class="rgba-white-light" style="margin: 0 15%;">
+
+    <!-- Grid row-->
+    <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+
+      <!-- Grid column -->
+      <div class="col-md-8 col-12 mt-5">
+        <p style="line-height: 1.7rem">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem
+          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+          explicabo.
+          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+    <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
+
+    <!-- Grid row-->
+    <div class="row pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-12">
+
+        <div class="mb-5 flex-center">
+
+          <!-- Facebook -->
+          <a class="fb-ic">
+            <i class="fab fa-facebook-f fa-lg white-text mr-4"> </i>
+          </a>
+          <!-- Twitter -->
+          <a class="tw-ic">
+            <i class="fab fa-twitter fa-lg white-text mr-4"> </i>
+          </a>
+          <!-- Google +-->
+          <a class="gplus-ic">
+            <i class="fab fa-google-plus-g fa-lg white-text mr-4"> </i>
+          </a>
+          <!--Linkedin -->
+          <a class="li-ic">
+            <i class="fab fa-linkedin-in fa-lg white-text mr-4"> </i>
+          </a>
+          <!--Instagram-->
+          <a class="ins-ic">
+            <i class="fab fa-instagram fa-lg white-text mr-4"> </i>
+          </a>
+          <!--Pinterest-->
+          <a class="pin-ic">
+            <i class="fab fa-pinterest fa-lg white-text"> </i>
+          </a>
+
+        </div>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row-->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
 
 
-
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 </body>
 </html>
